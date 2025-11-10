@@ -1,10 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="https://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
+  <link href="https://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+  <script src="https://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
 </head>
-<body>
 
-</body>
-</html>
+<style>
+  div.eachHomepageProductList{
+    background-color: #F5F5F5;
+    padding: 50px 10px 50px 10px;
+    margin: 10px auto;
+    max-width: 1013px;
+  }
+
+  div.productItem{
+    width: 189px;
+    height: 289px;
+    border: 1px solid white;
+    float: left;
+    margin: 8px 4px;
+    cursor: pointer;
+  }
+
+  div.productItem span.productItemDesc{
+    display: block;
+    font-size: 12px;
+    color: #666666;
+    padding: 16px;
+  }
+
+  div.productItem span.productPrice{
+    font-size: 16px;
+    color: #FF003A;
+    display: block;
+    padding-left: 16px;
+    margin-top: -10px;
+  }
+
+  div.productItem img{
+    width: 187px;
+    height: 190px;
+  }
+
+  div.productItem img:hover{
+    opacity: 0.7;
+    filter: alpha(opacity = 70);
+  }
+
+  div.eachHomepageProductList{
+    margin: 0 0 40px 0;
+  }
+
+  a.productItemDescLink{
+    display: inline-block;
+    height: 66px;
+    text-decoration: none;
+  }
+
+  div.left-mark{
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    width: 5px;
+    background-color: #19C8A9;
+  }
+
+  span.productTile{
+    font-size: 16px;
+    margin-left: 30px;
+    color: #646464;
+    font-weight: bold;
+  }
+</style>
+
+<div class="homepageProductList">
+  <div class="eachHomepageProductList">
+    <div class="left-mark"></div>
+    <span class="productTile">太阳镜</span>
+    <br>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9543.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]好先生同款墨镜孙红雷偏光男士太阳镜韩明星
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9532.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]陌森太阳眼镜男女2016偏光定制驾驶近视
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9521.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]帕莎Prsr太阳镜女偏光镜潮范冰冰同款女
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9510.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]变色眼镜男女款半框太阳镜大框潮流防辐射防
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9532.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]
+          新款男士偏光太阳镜日夜两用墨镜潮运动开车
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+
+  <div class="eachHomepageProductList">
+    <div class="left-mark"></div>
+    <span class="productTile">安全座椅</span>
+    <br>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9543.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]好先生同款墨镜孙红雷偏光男士太阳镜韩明星
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9543.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]好先生同款墨镜孙红雷偏光男士太阳镜韩明星
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9543.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]好先生同款墨镜孙红雷偏光男士太阳镜韩明星
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9543.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]好先生同款墨镜孙红雷偏光男士太阳镜韩明星
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+    <div class="productItem">
+      <a href="#nowhere">
+        <img width="100px" src="https://how2j.cn/tmall/img/productSingle_middle/9543.jpg">
+      </a>
+      <a href="#nowhere" class="productItemDescLink">
+        <span class="productItemDesc">
+          [热销]好先生同款墨镜孙红雷偏光男士太阳镜韩明星
+        </span>
+      </a>
+      <span class="productPrice">
+        99.9
+      </span>
+    </div>
+  </div>
+</div>
